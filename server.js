@@ -1,6 +1,4 @@
-const { error } = require('console');
 const http = require('http');
-const { listen } = require('./app');
 const app=require('./app');
 
 const normalizePort=val=>{
